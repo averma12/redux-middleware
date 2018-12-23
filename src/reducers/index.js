@@ -1,7 +1,8 @@
 import { combineReducers } from "redux";
+import postsRecucer from "./postsReducer";
 
 const reducers = combineReducers({
-  eg: () => 10
+  posts: postsRecucer
 });
 
 export default reducers;
