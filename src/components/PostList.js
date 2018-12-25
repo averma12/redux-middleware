@@ -8,10 +8,10 @@ class PostList extends Component {
   }
 
   renderList = () => {
-    this.props.posts.map(post => {
-      console.log(post.title);
+    return this.props.posts.map(post => {
+      console.log(post.id);
       return (
-        <div className="item" key={post["id"]}>
+        <div className="item" key={post.id}>
           <i className="large middle aligned user" />
           <div className="content">
             <div className="description">
