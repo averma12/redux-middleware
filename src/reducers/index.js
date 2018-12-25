@@ -4,7 +4,7 @@ import usersReducer from "./usersReducer";
 
 const reducers = combineReducers({
   posts: postsRecucer,
-  user: usersReducer
+  users: usersReducer
 });
 
 export default reducers;
